@@ -1,0 +1,11 @@
+*.env
+*.crt
+*.key
+*node_modules
+*__pycache__
+*.vscode
+
+/Dist
+/Containers
+/Logs/*.log
+/Seeds/all.sql
