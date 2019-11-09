@@ -1,0 +1,12 @@
+{
+  "name" : "PROJECT-NAME-PROD",
+  "database" : {
+      "Mysql" : {
+          "host"     : "localhost",
+          "dialect"  : "mysql",
+          "db_name"  : "project",
+          "username" : "root",
+          "password" : "sayhello"
+      }
+  }
+}

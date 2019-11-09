@@ -1,0 +1,19 @@
+{
+    "name" : "PROJECT-NAME-DEV",
+    "database" : {
+        "Mysql" : {
+            "host"     : "localhost",
+            "dialect"  : "mysql",
+            "db_name"  : "project",
+            "username" : "root",
+            "password" : "sayhello"
+        },
+        "MongoDb" : {
+          "host"     : "localhost",
+          "dialect"  : "mongodb",
+          "db_name"  : "project",
+          "username" : "root",
+          "password" : "sayhello"
+      }
+    }
+}
