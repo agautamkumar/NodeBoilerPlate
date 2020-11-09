@@ -1,5 +1,5 @@
 {
-  "name" : "PROJECT-NAME-PROD",
+  "name" : "Your-Project-Name-Prod",
   "database" : {
       "Mysql" : {
           "host"     : "localhost",

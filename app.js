@@ -10,7 +10,7 @@ const config        = require('config')
 const appRoutes     = require('./routes/index')
 // const Sequelize     = require('./models/sequelise/sequelize')
 const Mongoose      = require('./models/mongoose/mongoose')
-
+const ProjectName   = config.get('name')
 
 // Set up the express app
 const app = express();
@@ -42,7 +42,7 @@ const port = process.env.PORT || 8000;
 app.set('port', port);
 const server = http.createServer(app);
 server.listen(port,function(err,data){
-    console.log(`Inboxified running on port ${port}`)
+    console.log(`${ProjectName} running on port ${port}`)
 });
 
 
